@@ -1,0 +1,19 @@
+{
+  "name": "spotlistify-refactored",
+  "version": "1.0.0",
+  "engines": {
+    "node": "13.9.x"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.15.3",
+    "request": "^2.88.2",
+    "selectors": "0.0.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  }
+}
